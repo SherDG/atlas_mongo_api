@@ -17,7 +17,7 @@ const uri =
 
 ```bash
 npm i
-node atlas_server_universal_copy.js
+node atlas_server_universal_run.js
 ```
 
 **API usage**:
