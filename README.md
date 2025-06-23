@@ -6,7 +6,7 @@
 req.db = client.db("myFirstDatabase"); // Змініть на на вашу базу даних
 ```
 
-2. Set your db pass in atlas_server_universal \_base.js
+2. Set your db pass(Database Acess in Atlas UI --> Add new database user) in atlas_server_universal \_base.js
 
 ```bash
 const uri =
