@@ -6,7 +6,7 @@ const app = express();
 app.use(bodyParser.json());
 
 const uri =
-  "mongodb+srv://admin:<PASSWORD>@testcluster.cagmu.mongodb.net/?retryWrites=true&w=majority&appName=testCluster";
+  "mongodb+srv://admin:YOUR_PASS@testcluster.cagmu.mongodb.net/?retryWrites=true&w=majority&appName=testCluster";
 const client = new MongoClient(uri, {
   serverApi: {
     version: ServerApiVersion.v1,
