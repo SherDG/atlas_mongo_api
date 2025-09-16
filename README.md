@@ -21,7 +21,6 @@ node atlas_server_universal_run.js
 ```
 
 **API usage**:
-
 collection name(e.g. myemployee_production) should be set during http call:
 GET http://localhost:3000/api/myemployee_production - всі документи
 GET http://localhost:3000/api/myemployee_production/:id - документ за ID
